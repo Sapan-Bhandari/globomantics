@@ -1,0 +1,11 @@
+{% extends "authenticate/header.html" %}
+
+{% block content %}
+
+{% load crispy_forms_tags %}
+
+<h1>Logout Page</h1>
+ {% include 'authenticate/messages.html' %}
+<a href="/login">Do you want to Login again!</a>
+
+{% endblock %}
